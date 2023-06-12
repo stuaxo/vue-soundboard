@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <SoundPlayer />
+    <SoundBoard />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import SoundPlayer from "./components/SoundPlayer.vue";
+import SoundBoard from "./components/SoundBoard.vue";
 
 export default defineComponent({
   components: {
-    SoundPlayer,
+    SoundBoard,
   },
 });
 </script>
