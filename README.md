@@ -1,6 +1,12 @@
 # vue-soundboard
 
-Sounds by @mattbis
+Simple soundboard built in Vue.
+
+
+## Try it:
+
+[stuaxo.github.io/vue-soundboard/](//stuaxo.github.io/vue-soundboard/)
+
 
 ## Project setup
 ```
@@ -26,3 +32,9 @@ yarn lint:fix
 ```
 yarn update-audio-list
 ```
+
+## Structure
+
+To keep things straightforward the Sound Board is a single vue component.
+
+Sounds are wavs, by @mattbis.
