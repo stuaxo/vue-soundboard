@@ -53,7 +53,7 @@ const fetchAndDecode = (
   ctx: AudioContext,
 ): Promise<AudioBuffer> => {
   if (!audioBufferCache.has(file)) {
-    const p = fetch(`/sounds/${file}`)
+    const p = fetch(`${import.meta.env.BASE_URL}sounds/${file}`)
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.arrayBuffer();

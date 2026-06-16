@@ -1,5 +1,7 @@
 # vue-soundboard
 
+Sounds by @mattbis
+
 ## Project setup
 ```
 yarn install
